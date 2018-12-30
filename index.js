@@ -74,7 +74,7 @@ const HelpHandler = {
     );
   },
   handle(handlerInput) {
-    const kokodayo = `<audio src='${sounds.kokodayo}'/>`;
+    const kokodayo = `<audio src='${constants.voiceData.kokodayo}'/>`;
     return handlerInput.responseBuilder.speak(kokodayo).getResponse();
   }
 };
