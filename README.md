@@ -1,4 +1,4 @@
-# hello-koko
+# hello-coco
 
 ## Lambdaアップロード用zipファイル
 ```
